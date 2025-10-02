@@ -1,7 +1,7 @@
 import subprocess
 def run_program():
     result = subprocess.run(
-        ["./main"] , capture_output = True , text = True , check = True
+        ["./main_program"] , capture_output = True , text = True , check = True
     )
     return result.stdout.strip().splitlines()
 
